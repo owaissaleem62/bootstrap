@@ -1,0 +1,245 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 100%;
+
+}
+
+.nav-link {
+    width: 100% !important;
+    padding: 15px !important;
+    color: azure !important;
+    font-size: 18PX;
+    position: relative;
+    top: 10PX;
+    right: 20PX;
+}
+.carousel-inner img {
+    height: 750px !important;
+    width: 100%;
+    background-size: cover;
+    opacity: 60%;
+}
+
+.carousel-inner {
+    background-color: black;
+
+}
+
+.a {
+    border-bottom: 1px solid rgb(190, 172, 172) !important;
+    padding-bottom: 20PX !important;
+    padding: 10px;
+    width: 100% !important;
+    position: relative;
+    right: 20px;
+}
+
+
+#navbarDropdown {
+    padding: 10px !important;
+}
+
+/* btn1*/
+.btn1 {
+    color: #FFF;
+    border: 1PX solid #FFF;
+    border-radius: 0% !important;
+    padding: 10px 15px;
+    position: relative;
+    top: 8px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: blue;
+}
+
+.a {
+    color: black !important;
+    position: relative;
+    left: 20px;
+    padding-bottom: 20px !important;
+}
+.next {
+    background: #000 !important;
+    padding: 10px 15px !important;
+    color: #fff !important;
+
+
+
+}
+
+.carousel-caption {
+    z-index: 1 !important;
+
+}
+
+.carousel-caption h5 {
+    position: relative;
+    bottom: 250px;
+    font-weight: 700;
+
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    position: relative;
+    bottom: 280px;
+    font-size: 20px !important;
+
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.carousel-caption button {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 13px 50px;
+    position: relative;
+    bottom: 230px;
+
+}
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        z-index: 1 !important;
+    
+    }
+    
+    .carousel-caption h5 {
+        position: relative;
+        bottom: 150px;
+        font-weight: 500;
+    
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+    
+    .carousel-caption p {
+        position: relative;
+        bottom: 180px;
+        font-size: 15px !important;
+    
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    
+    .carousel-caption button {
+        color: #fff;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        padding: 10px 45px;
+        position: relative;
+        bottom: 130px;
+}
+}
+
+.titel1 {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #393636;
+    font-size: 50px;
+}
+.titel1::after {
+    content: '';
+    background: #000000;
+    width: 100px;
+    height: 2px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Os */
+
+.OS {
+    height: 650px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 20px 10px #eee7e6;
+    background-image: url(./4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    margin-top: 67px;
+
+}
+.titel {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.titel::after {
+    content: '';
+    background: #eee7e6;
+    width: 100px;
+    height: 2px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.fa-solid1 {
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    border: 1px solid rgb(250, 247, 247);
+    border-radius: 50px;
+    padding: 22px;
+    position: relative;
+    /* bottom: 20%; */
+    color: rgb(247, 247, 247);
+    font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .titel {
+        text-align: center;
+        margin: 0 auto 80px;
+        position: relative;
+        line-height: 60px;
+        color: #555;
+    }
+    .titel::after {
+        content: '';
+        background: #eee7e6;
+        width: 100px;
+        height: 2px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .process{
+        margin-left:100px ;
+    }
+    .fa-solid1 {
+        height: 50px;
+        width: 50px;
+        /* font-size: 8px; */
+        border: 1px solid rgb(250, 247, 247);
+        border-radius: 50px;
+        padding: 15px;
+        position: relative;
+        color: rgb(247, 247, 247);
+        font-size: 20px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+}

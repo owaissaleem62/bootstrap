@@ -299,6 +299,12 @@ body {
         box-shadow: 0 0 20px 10px #eee7e6;
         padding: 60px;
     }
+    .footer{
+        text-align: center;
+    }
+    .social_profile{
+        margin-left: 60px;
+    }
 }
 .new-section {
     margin-top: 100px;
